@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: Danger;
+            src: url(fonts/Another\ Danger\ -\ Demo.otf) format(opentype);
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: Anger;
+            src: url(fonts/AngerStyles.ttf) format(truetype);
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Storm';
+            src: url(fonts/Storm\ Gust.otf) format( 'opentype'), 
+            url(fonts/Storm\ Gust.ttf) format(truetype);
+            font-weight: normal;
+            font-style: normal;
+            /*
+                 Tipos de format ()
+                 - opentype (otf)
+                 - truetype (ttf)
+                 - embedded-opentype
+                 - truetype-aat (Apple Advanced Typography)
+                 - svg
+            */
+        }
+        body {
+            font-family: 'Anger', Arial, Helvetica, sans-serif;
+            font-size: 26px;
+        }
+
+        h1 {
+            font-family: 'Storm', Times, serif;
+            font-size: 3em;
+        }
+
+        h2 {
+            font-family: 'Danger', Times, serif;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa possimus porro, rerum deleniti, ipsum, voluptatum soluta hic iusto corporis tenetur enim aliquam. Facilis non, numquam aliquid ipsa expedita sunt quos.</p>
+
+    <h2>Subtitulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad id similique perferendis ut, cumque illo ipsum, ab iusto ducimus aliquid sequi molestias culpa iure aliquam facere labore rem officia mollitia.</p>
+    
+</body>
+</html>
